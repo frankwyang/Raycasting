@@ -40,8 +40,8 @@ function draw() {
     }
 
     particle.show();
-    particle.update(mouseX, mouseY);
-    // particle.update(noise(xoff) * width, noise(yoff) * height);
+    // particle.update(mouseX, mouseY);
+    particle.update(noise(xoff) * width, noise(yoff) * height);
 
     // particle.look(wall);
     // particle.look(walls[0]);
